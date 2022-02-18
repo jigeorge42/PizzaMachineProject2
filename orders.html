@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Machine</title>
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/adminlte.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/fontawesome/css/all.min.css">
+</head>
+<body class="vh-100 ">
+    <div class="wrapper">
+        <div class="container-fluid mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Orders</h3>
+                    <div class="card-tools">
+                        <button type="button" class="btn btn-tool" title="Login" id="btnOrdersLogin">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </button>
+                        </div>
+                </div>
+                <div class="card-body p-0">
+                <table class="table table-striped projects">
+                    <thead>
+                        <tr>
+                            <th style="width: 1%">#</th>
+                            <th style="width: 20%">Order Number</th>
+                            <th style="width: 30%">Customer</th>
+                            <th>Order Progress</th>
+                            <th style="width: 8%" class="text-center">Status</th>
+                            <th style="width: 20%"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            2307
+                        </td>
+                        <td>
+                            <a>Large Pizza</a>
+                            <br>
+                            <small>BBQ, Chicken, Extra Toasty</small>
+                        </td>
+                        <td>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <img alt="Avatar" class="table-avatar" src="images/josh.jpg">
+                                        <p class="ml-2 text-bold">Josh George</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="project_progress">
+                            <div class="progress progress-sm">
+                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%">
+                                </div>
+                            </div>
+                            <small>50% Baked</small>
+                        </td>
+                        <td class="project-state">
+                            <span class="btn btn-warning">Oven</span>
+                        </td>
+                        <td class="project-actions text-right">
+                            <a class="btn btn-primary" href="#"><i class="fa-solid fa-forward-step mr-2"></i>Next Step</a>
+                            <a class="btn btn-success" href="#"><i class="fa-solid fa-receipt mr-2"></i>Finished/Receipt</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+            
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="js/lib/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/lib/adminlte.min.js"></script>
+    <script type="text/javascript" src="js/lib/sweetalert2.js"></script>
+    <script type="text/javascript" src="js/lib/datatables.min.js"></script>
+    <script type="text/javascript" src="lib/fontawesome/js/all.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
